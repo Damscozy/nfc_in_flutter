@@ -12,13 +12,14 @@ class ExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text("NFC in Flutter examples"),
         ),
         body: Builder(builder: (context) {
           return ListView(
-            children: <Widget>[
+            children: [
               ListTile(
                 title: const Text("Read NFC"),
                 onTap: () {

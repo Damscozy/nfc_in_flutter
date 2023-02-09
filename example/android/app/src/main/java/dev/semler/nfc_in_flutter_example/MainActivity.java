@@ -1,4 +1,4 @@
-package dev.semler.nfc_in_flutter_example;
+package com.nfc.app;
 
 import io.flutter.embedding.android.FlutterActivity;
 
